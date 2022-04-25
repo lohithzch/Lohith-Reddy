@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main(){
+    float i,m,f,in,cm;
+    scanf("%f",&i);
+    m=i*1000;
+    f=i*3280.84;
+    in=i*39370.1;
+    cm=i*100000;
+    printf("%.2f m\n%.2f ft\n%.2f in\n%.2f cm",m,f,in,cm);
+    return 0;
+}
